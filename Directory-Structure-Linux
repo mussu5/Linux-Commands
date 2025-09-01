@@ -1,1 +1,65 @@
 
+File Directory System
+
+1) / : It is called as root directory. It contains all the subdirectories.
+
+2) home : It contains home directories for all users to store their personal files. (It is
+similar to Documents and Setting folder in Windows OS).
+Ex: /home/user1 --> user1 user home directory.
+/home/user2 --> user2 user home directory.
+
+3) bin: It contains the commands binary files. User can access the commands.
+Ex: mkdir, ls, cd, ps….
+
+4) sbin : System Binary, Just like /bin It contains the commands and files, but only root
+user can access.
+Ex: ifconfig, reboot, shutdown and swapon …
+
+5) etc: etc stands for etcetra.It contains the configuration files. Ex: motd, sudoers, group,
+shadow.
+
+6) lib : It contains the system libraries.
+
+7) proc : It contains the RAM, Process and Kernel information.
+
+8) tmp : It contains the temporary files.
+
+9)dev: It contains the device files. Ex: USB or any device attached to the server.
+
+10) opt : opt stands for optional. We can use this for installing the third party softwares.
+
+11)usr : usr stands for Unix System Resources.
+It contains the binaries and libraries. WAS,IHS or DB2 etc related softwares will install
+in this directory.
+
+12)var : It contains variable files. This includes system log files(/var/log), emails
+(/var/mail) and temp files needed across reboots (/var/tmp)
+
+13)lost+found : It Contains  Recovered Files 
+
+14)mnt : It contains temporary mount directories for mounting the file system.
+
+15)net :It Contains Linux file hierarchy is the repository for the socket abstraction and the network protocols 
+
+16) boot: it contains the files needed to boot the system
+         For example, the GRUB boot loader's files and your Linux kernels are stored here. 
+         The boot loader's configuration files aren't located here, 
+         though; they're in /etc with the other configuration files.
+
+17) root : /root is the root user home directory.
+
+18)selinux :SELinux provides an additional layer of security for your system that is built into Linux distributions.
+
+29)srv : It Contains Service Data 
+
+20)sys :	It store and allows modification of the devices connected to the system.
+
+21)tmp : It Contains temporary space, typically cleared on reboot.
+
+22)media : It contains subdirectories where removal media devices are inserted.
+
+23)misc : It contains miscellaneous architecture-independent data.
+
+24)run  : It stores volatile runtime data.
+“/” called root directory.
+/root is the root user home directory.
